@@ -45,7 +45,7 @@ function CompletedLessonsPage() {
               <td>{index + 1}</td>
               <td>{lesson.lessonTitle}</td>
               <td>{lesson.level}</td>
-              <td>{lesson.estimatedTime.toLocaleString()} minutes</td>
+              <td>{lesson.estimatedTime.toLocaleString('en-US')} minutes</td>
             </tr>
           ))}
         </tbody>

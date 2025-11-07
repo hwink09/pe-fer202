@@ -38,7 +38,7 @@ function AllLessonsPage() {
   return (
     <Container className="p-4">
       <div className="d-flex justify-content-between align-items-center mb-3">
-        <h2 className="mb-0">All Lessions</h2>
+        <h2 className="mb-0">All Lessons</h2>
         <Button variant="success" onClick={() => navigate("/SE123456/add")}>
           <FaPlus className="me-2" />
           Add New Lesson
@@ -65,7 +65,7 @@ function AllLessonsPage() {
               <td>{index + 1}</td>
               <td>{lesson.lessonTitle}</td>
               <td>{lesson.level}</td>
-              <td>{lesson.estimatedTime.toLocaleString()} minutes</td>
+              <td>{lesson.estimatedTime.toLocaleString('en-US')} minutes</td>
               <td onClick={(e) => e.stopPropagation()}>
                 <Button
                   variant="outline-warning"

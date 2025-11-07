@@ -100,7 +100,7 @@ function DetailPage() {
             <p className="mb-4">
               <strong>Estimated Time:</strong>{" "}
               <span className="fs-4 text-success fw-semibold">
-                {lessons.estimatedTime.toLocaleString()} minutes
+                {lessons.estimatedTime.toLocaleString('en-US')} minutes
               </span>
             </p>
 

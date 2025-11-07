@@ -64,7 +64,7 @@ function HomePage() {
                   <Card.Text>
                     <strong>Level:</strong> {item.level} <br />
                     <strong>Estimated Time:</strong>{" "}
-                    {item.estimatedTime.toLocaleString()} minutes
+                    {item.estimatedTime.toLocaleString('en-US')} minutes
                   </Card.Text>
                 </div>
 
